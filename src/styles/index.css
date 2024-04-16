@@ -11,6 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.disable {
+  pointer-events: none;
+}
 
 @import './App.css';
 @import './Game.css';
