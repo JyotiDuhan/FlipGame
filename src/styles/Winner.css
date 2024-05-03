@@ -1,0 +1,14 @@
+.winner-wrap {
+	text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+}
+
+.winner-color {
+	display: inline-block;
+	height: 20px;
+	width: 50px;
+}

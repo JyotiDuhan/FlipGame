@@ -22,8 +22,8 @@ export default function Game(){
 			if(document.getElementById('right').classList.contains('disable')) {
 				document.getElementById('right').classList.remove('disable');
 			}
-			if(rS && rS === lS) {
-				setWinner('Game over.');
+			if(rS && rS === item) {
+				setWinner(item);
 			} else if(rS) { // also, reset right side state if exists 
 				setRs('');
 			}
@@ -35,8 +35,8 @@ export default function Game(){
 			if(document.getElementById('left').classList.contains('disable')) {
 				document.getElementById('left').classList.remove('disable');
 			}
-			if(lS && lS === rS){
-				setWinner('Game over.');
+			if(lS && lS === item){
+				setWinner(item);
 			} else if(lS) { // also, reset left side state if exists
 				setLs('');
 			}

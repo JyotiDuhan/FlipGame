@@ -9,7 +9,7 @@ export default function Winner() {
 	}
 	return (
 		<div className='winner-wrap'>
-			<span>Congratulations {contestants}!!!</span><br/>
+			<p>Congratulations <span className="winner-color" style={{backgroundColor: contestants}}></span></p><br/>
 			<button onClick={() => playagain()}>Play again</button>
 		</div>
 	)
